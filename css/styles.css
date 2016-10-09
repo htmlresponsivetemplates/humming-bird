@@ -1,0 +1,248 @@
+::-moz-selection {
+  background-color: #fef064;
+  color: #fff;
+}
+
+::selection {
+  background-color: #fef064;
+  color: #fff;
+}
+
+.navbar{
+    background-color: #12272b;
+}
+
+h1, nav h2,
+#about h2,
+#portfolio h2{
+    display: none;
+}
+
+.navbar > a{
+    color: #fef064;
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar ul li a{
+    color: #fff;
+     font-family: 'Candal', sans-serif;
+}
+
+header{
+    background-image: url(../img/header-bg.jpg);
+    height: 720px;
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+h2{
+ font-size: 90px;
+ font-family: 'Candal', sans-serif;
+}
+
+#about .about-clm > p,
+#portfolio  .portfolio-clm > p{
+    font-size: 90px;
+    font-family: 'Candal', sans-serif;
+}
+
+.home-slogan {
+    font-size: 60px;
+    padding-top: 160px;
+    font-family: 'Pacifico', cursive;
+}
+
+.home-sub-slogan {
+    color: #fef064;
+    font-size: 48px;
+    padding-top: 64px;
+    padding-bottom: 90px;
+    font-family: 'Pacifico', cursive;
+}
+
+.home-text .btn-circle,
+.home-text .btn-circle:active{
+    background-color: #12272b;
+    border: 2px solid #fef064;
+}
+
+.home-text a{
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+.home-text .btn-circle .fa-arrow-down{
+    margin-top: 12px;
+}
+
+#about,
+#portfolio,
+footer{
+    background-color: #12272b;
+    color: #fff;
+}
+
+#about .fa-bell-o,
+#portfolio .fa-heart{
+    font-size: 180px;
+    color: #fef064;
+}
+
+.about-clm,
+.portfolio-clm,
+footer{
+    text-align: center;
+}
+
+.about-clm h2,
+.portfolio-clm h2{
+    padding-top: 20px;
+}
+
+.about-clm,
+.about-clm-text,
+.portfolio-clm,
+.portfolio-sample{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.services-wrapper{
+    padding-top: 60px;
+    text-align: right;
+    color: #12272b;
+}
+
+#services h2,
+#contact h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#services .fa-inbox,
+#contact .fa-envelope{ 
+    font-size: 180px;
+}
+
+#services .card{
+    text-align: center;
+}
+
+#services img,
+#portfolio img{
+    width: 90%;
+    height: 90%;
+}
+
+.portfolio-sample .row:last-child .col-xl-3:last-child{
+    padding-top: 10px;
+}
+
+.portfolio-sample p:last-child{
+    text-align: center;
+}
+
+#portfolio .card{
+    background-color: transparent;
+    text-align: center;
+}
+
+
+#contact{
+    padding-top: 60px;
+    text-align: center;
+    color: #12272b;
+    padding-bottom: 40px;
+}
+
+#contact .form-control {
+    color: #2c3e50;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    background-color: #ffffff;
+    background-image: none;
+    border: 2px solid #dce4ec;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+#contact .form-control:focus{
+    border-color: #2c3e50;
+    outline: 0;
+}
+
+footer{
+    text-align: center;
+}
+
+footer h4{
+    font-size: 24px;
+    color: #fef064;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: 'Candal', sans-serif;
+}
+
+footer p{
+    padding-top: 2px;
+    padding-bottom: 0;
+}
+
+footer .social-media a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .social-media i{
+    font-size: 42px;
+    -moz-transition: color 1.0s ease;
+    -o-transition: color 1.0s ease;
+    -webkit-transition: color 1.0s ease;
+    transition: color 1.0s ease;
+    padding-left: 8px;
+}
+
+footer .social-media i:hover{
+    color: #fef064;
+}
+
+footer .social-media{
+    padding-bottom: 20px;
+}
+
+@media (max-width: 490px) {
+
+    .home-text .home-slogan{
+        font-size: 40px;
+    }
+
+    .home-text .home-sub-slogan{
+        font-size: 30px;
+    }
+
+    h2,
+    #about .about-clm > p,
+    #portfolio  .portfolio-clm > p{
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 361px){
+    nav > ul > li:nth-child(4) > a{
+        margin-left: -16px;
+    }
+}
